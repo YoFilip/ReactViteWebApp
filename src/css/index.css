@@ -291,6 +291,10 @@ body {
 	.description, .project .text, .text{
 		font-size: 20px;
 	}
+	.box1 {
+
+		overflow-y: none;
+	}
 }
 
 @media (min-width: 600px) {
