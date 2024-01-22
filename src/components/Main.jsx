@@ -7,7 +7,7 @@ import themeIconDark from "../assets/dark_mode_logo.png";
 
 function Main() {
 	const [darkMode, setDarkMode] = React.useState(false);
-	const [activeBox, setActiveBox] = React.useState("box1");
+	  const [activeBox, setActiveBox] = React.useState("box1");
 
 	function toggleTheme() {
 		setDarkMode(!darkMode);

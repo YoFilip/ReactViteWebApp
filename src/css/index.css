@@ -72,7 +72,7 @@ body {
 
 .box2 {
 	background-color: var(--box2);
-	height: auto; /* Ustawienie wysokości na auto */
+	overflow-y: auto;
 }
 
 .profile-box {
