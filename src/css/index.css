@@ -30,8 +30,8 @@
 	--dw-btn: #aaaaaa;
 	--dw-btn-text: #181C23;
 	--dm-btn: #aaaaaa;	
-	--dm-btn-bg: #181C23;
-	--dm-btn-text: #aaaaaa;
+	--dm-btn-bg: #aaaaaa;
+	--dm-btn-text: #181C23;
 	--scroll: #27374D;
 	--white-text: #fff;
 	--white-border: none;
@@ -53,7 +53,7 @@ body {
 }
 
 .body-dark-mode{
-	background-color: #092957!important;
+	background-color: #181C23!important;
 }
 .body-white-mode{
 	background-color: #181C23;
