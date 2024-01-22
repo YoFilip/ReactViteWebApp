@@ -1,16 +1,16 @@
 :root {
-	--background: #388bff;
+	--background: #181C23;
 	--white: #fff;
 	--black: #000;
 	--box-profile: #fff;
 	--box-projects: #fff;
-	--button: #388bff;
-	--box1: #e9f2ff;
-	--box2: #388bff;
-	--dw-btn: #388bff;
+	--button: #181C23;
+	--box1: #f8ede9;
+	--box2: #181C23;
+	--dw-btn: #181C23;
 	--dw-btn-text: #fff;
 	--dm-btn: #fff;
-	--dm-btn-bg: #388bff;
+	--dm-btn-bg: #181C23;
 	--dm-btn-text: #fff;
 	--scroll: #27374D;
 	--white-text: #fff;
@@ -18,24 +18,27 @@
 }
 
 .dark-mode {
-	--background: #092957;
+	--background: #181C23;
 	--white: #fff;
-	--black: #fff;
+	--black: #000;
 	--black-dark-mode: #000;
-	--box-profile: #0c66e4;
-	--box-projects: #0c66e4;
-	--button: #fff;
-	--box1: #1d7afc;
-	--box2: #092957;
-	--dw-btn: #fff;
-	--dw-btn-text: #1d7afc;
-	--dm-btn: #fff;
-	--dm-btn-bg: #fff;
-	--dm-btn-text: #1d7afc;
-	--scroll: #393E46;
-	--white-text: #1d7afc;
-	--white-border: #fff;
+	--box-profile: #aaaaaa;
+	--box-projects: #aaaaaa;
+	--button: #181C23;
+	--box1: #181C23;
+	--box2: #181C23;
+	--dw-btn: #aaaaaa;
+	--dw-btn-text: #181C23;
+	--dm-btn: #aaaaaa;	
+	--dm-btn-bg: #181C23;
+	--dm-btn-text: #aaaaaa;
+	--scroll: #27374D;
+	--white-text: #fff;
+	--white-border: none;
 }
+
+
+
 
 * {
 	margin: 0;
@@ -53,7 +56,7 @@ body {
 	background-color: #092957!important;
 }
 .body-white-mode{
-	background-color: #388bff;
+	background-color: #181C23;
 }
 
 
@@ -315,6 +318,15 @@ body {
 		margin-bottom: 5px;
 	}
 }
+
+@media only screen and (max-width: 768px) {
+	.container {
+	  display: flex;
+	  flex-wrap: wrap;
+	}
+  
+	/* You can also make other responsive adjustments for smaller screens here if needed */
+  }
 
 #theme-toggle-button-mobile {
 	display: none;

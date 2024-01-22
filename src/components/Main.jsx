@@ -55,7 +55,6 @@ function Main() {
 		},
 
 
-
 	];
 
 	return (
