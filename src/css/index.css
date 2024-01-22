@@ -62,7 +62,7 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	height: auto;
-  }
+}
 
 .box {
 	width: 100%;
@@ -73,6 +73,7 @@ body {
 		width: 50%;
 		height: 100vh;
 	}
+
 	.download-buttons:last-child {
 		display: none;
 		margin: 0;
@@ -234,23 +235,49 @@ body {
 	.download-buttons:first-child {
 		display: none;
 	}
+
 	.profile-box {
 		max-width: 430px;
 		margin-top: 50px;
 		margin-bottom: 50px;
 	}
+
 	.project-container {
 		padding: 10px;
 	}
+
 	.theme-toggle-button .mobile {
 		display: flex;
+		margin-top: 200px;
 	}
+
 	.theme-toggle-button {
 		display: none;
 	}
+
 	.text h2 {
 		margin-left: 40px;
+		font-size: 35px;
 	}
+
+	.profile-content p {
+		font-size: 20px;
+	}
+
+	.profile-content {
+		font-size: 40px;
+	}
+
+	.header-text {
+		font-size: 40px;
+	}
+
+	.description,
+	.project .text,
+	.text {
+		font-size: 20px;
+	}
+
 	#theme-toggle-button-mobile {
 		background-color: var(--dm-btn-bg);
 		display: flex !important;
@@ -260,23 +287,29 @@ body {
 		display: flex;
 		justify-content: space-around;
 	}
+
 	#theme-toggle-button-mobile h2 {
-		margin-top: 35px;
+		margin-top: 38px;
 		color: var(--dm-btn-text);
 	}
 
-	.theme-toggle-button img {
-		height: 80px;
-		margin: 0px 3px;
-		cursor: pointer;
-		margin-top: 10px;
-		margin-bottom: 7px;
-	}
 	.download-buttons:last-child {
 		display: flex;
 	}
-	.box2{
+
+	.box2 {
 		overflow-y: visible;
+	}
+
+	.icon-bar img,
+	.theme-toggle-button img {
+		height: 50px;
+		margin: 0px 3px;
+		cursor: pointer;
+		margin-top: 10px;
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-bottom: 5px;
 	}
 }
 
