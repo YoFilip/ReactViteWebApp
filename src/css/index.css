@@ -1,5 +1,5 @@
 :root {
-	--background: #27374D;
+	--background: #27374d;
 	--white: #fff;
 	--black: #000;
 	--box-profile: #fff;
@@ -12,13 +12,13 @@
 	--dm-btn: #fff;
 	--dm-btn-bg: #388bff;
 	--dm-btn-text: #fff;
-	--scroll: #27374D;
+	--scroll: #27374d;
 	--white-text: #fff;
 	--white-border: none;
 }
 
 .dark-mode {
-	--background: #393E46;
+	--background: #393e46;
 	--white: #fff;
 	--black: #fff;
 	--black-dark-mode: #000;
@@ -32,7 +32,7 @@
 	--dm-btn: #fff;
 	--dm-btn-bg: #fff;
 	--dm-btn-text: #1d7afc;
-	--scroll: #393E46;
+	--scroll: #393e46;
 	--white-text: #1d7afc;
 	--white-border: #fff;
 }
@@ -61,18 +61,6 @@ body {
 	width: 100%;
 }
 
-@media (min-width: 600px) {
-	.box {
-		width: 50%;
-		height: 100vh;
-	}
-	.download-buttons:last-child {
-		display: none;
-		margin: 0;
-		padding: 0;
-	}
-}
-
 .box1 {
 	background-color: var(--box1);
 	display: flex;
@@ -85,7 +73,6 @@ body {
 .box2 {
 	background-color: var(--box2);
 	overflow-y: auto;
-
 }
 
 .profile-box {
@@ -183,7 +170,7 @@ body {
 
 .icon-bar img,
 .theme-toggle-button img {
-	height: 80px;
+	height: 60px;
 	margin: 0px 3px;
 	cursor: pointer;
 	margin-top: 10px;
@@ -223,30 +210,46 @@ body {
 	text-decoration: none;
 }
 
+#theme-toggle-button-mobile {
+	display: none;
+}
+
+::-webkit-scrollbar,
+.box2::-webkit-scrollbar {
+	display: none;
+}
+
 @media only screen and (max-width: 600px) {
 	.box2 {
 		overflow-y: none;
 	}
+
 	.download-buttons:first-child {
 		display: none;
 	}
+
 	.profile-box {
 		max-width: 430px;
 		margin-top: 50px;
 		margin-bottom: 50px;
 	}
+
 	.project-container {
 		padding: 10px;
 	}
+
 	.theme-toggle-button .mobile {
 		display: flex;
 	}
+
 	.theme-toggle-button {
 		display: none;
 	}
+
 	.text h2 {
 		margin-left: 40px;
 	}
+
 	#theme-toggle-button-mobile {
 		background-color: var(--dm-btn-bg);
 		display: flex !important;
@@ -256,6 +259,7 @@ body {
 		display: flex;
 		justify-content: space-around;
 	}
+
 	#theme-toggle-button-mobile h2 {
 		margin-top: 35px;
 		color: var(--dm-btn-text);
@@ -268,16 +272,36 @@ body {
 		margin-top: 10px;
 		margin-bottom: 7px;
 	}
+
 	.download-buttons:last-child {
 		display: flex;
 	}
+	.text h2{
+		font-size: 35px;
+	}
+	.profile-content p{
+		font-size: 20px;
+	}
+	.profile-content{
+		font-size: 40px;
+	}
+	.header-text{
+		font-size: 40px;
+	}
+	.description, .project .text, .text{
+		font-size: 20px;
+	}
 }
 
-#theme-toggle-button-mobile {
-	display: none;
-}
+@media (min-width: 600px) {
+	.box {
+		width: 50%;
+		height: 100vh;
+	}
 
-::-webkit-scrollbar,
-.box2::-webkit-scrollbar {
-	display: none;
+	.download-buttons:last-child {
+		display: none;
+		margin: 0;
+		padding: 0;
+	}
 }
