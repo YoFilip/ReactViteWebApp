@@ -220,10 +220,6 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-	.box2 {
-		overflow-y: none;
-	}
-
 	.download-buttons:first-child {
 		display: none;
 	}
