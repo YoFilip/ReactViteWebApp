@@ -293,7 +293,7 @@ body {
 	}
 	.box1 {
 
-		overflow-y: none;
+		overflow-y: hidden;
 	}
 }
 
