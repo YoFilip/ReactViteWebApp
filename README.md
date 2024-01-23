@@ -1,4 +1,4 @@
-# 💻 Project Documentation - React Vite App
+# 💻 Project Documentation - React Vite Web App
 ## 📝 Project Description
 This project is a responsive web application built using React and Vite, providing a flexible layout for content placement, including buttons and boxes. It serves as a versatile foundation for various web applications, allowing you to easily customize and fill in the content as needed. Whether you're creating a personal website, portfolio, or any other web-based project, this layout is designed to be a starting point for your development.
 
