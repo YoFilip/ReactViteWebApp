@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 :root {
 	--background: #181C23;
 	--white: #fff;
@@ -37,9 +38,6 @@
 	--white-border: none;
 }
 
-
-
-
 * {
 	margin: 0;
 	padding: 0;
@@ -49,7 +47,7 @@
 html,
 body {
 	height: 100%;
-	font-family: Calibri, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .body-dark-mode{
@@ -163,16 +161,17 @@ body {
 }
 
 .header-text {
-	font-size: 50px;
+	font-size: 40px;
+	font-weight: bold;
 }
 
 .description,
 .project .text,
 .text {
 	color: var(--black);
-	font-size: 25px;
+	font-size: 18px;
 	margin-bottom: 20px;
-	font-weight: bold;
+	
 }
 
 .text h2 {
@@ -267,7 +266,7 @@ body {
 	}
 
 	.profile-content p {
-		font-size: 20px;
+		font-size: 18px;
 	}
 
 	.profile-content {
@@ -281,7 +280,7 @@ body {
 	.description,
 	.project .text,
 	.text {
-		font-size: 20px;
+		font-size: 18px;
 	}
 
 	#theme-toggle-button-mobile {
