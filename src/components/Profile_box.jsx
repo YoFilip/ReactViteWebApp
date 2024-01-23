@@ -4,20 +4,12 @@ function Profile_box({ darkMode }) {
 	return (
 		<div className='profile-box'>
 			<div className='profile-header'>
-				<h1 className='header-text'>Hi, I'm Filip</h1>
+				<h1 className='header-text'>Header Title</h1>
 			</div>
 			
 			<div className='profile-content'>
 				<p className='text'>
-					My name is Filip, I am 17 years old and I want to become a high-end
-					front-end developer. I am currently honing my skills at ZSEII in
-					Sosnowiec. My adventure with web development started eight years ago
-					and since then I have been learning on my own. I am interested in the
-					latest Internet technologies and artificial intelligence. When it
-					comes to coding, I'm good with many languages and tools, such as
-					React, HTML, CSS, JavaScript, C++, PHP and Java. But I don't plan to
-					stop there! I'm also diving into React and React Native. My goal? To
-					create professional websites and mobile applications.
+				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 				</p>
 			</div>
 			<div className='icon-bar'>
